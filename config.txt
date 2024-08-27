@@ -1,0 +1,8 @@
+start_directory=1
+end_directory=3
+name=AB_Meshes
+textures_directory=textures\_compiled
+scripts_directory=scripts\_compiled
+sound_directory=sound\sfx
+worlds_directory=worlds
+anims_directory=anims\_compiled
