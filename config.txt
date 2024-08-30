@@ -1,6 +1,6 @@
 start_directory=1
 end_directory=3
-name=AB_Meshes
+name=GII_Textures
 textures_directory=textures\_compiled
 scripts_directory=scripts\_compiled
 sound_directory=sound\sfx
