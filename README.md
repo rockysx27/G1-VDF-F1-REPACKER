@@ -1,1 +1,1 @@
-sam nie wiem jak tego uÅ¼ywaÄ‡
+Sam nie wiem jak tego u¿ywaæ..
