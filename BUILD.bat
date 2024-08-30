@@ -1,2 +1,3 @@
+@ECHO OFF
 python PyLibs/build.py
-pause
+exit

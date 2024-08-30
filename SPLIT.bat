@@ -1,2 +1,3 @@
+@ECHO OFF
 python PyLibs/split.py
-pause
+exit

@@ -1,4 +1,3 @@
-@echo off
+@ECHO OFF
 python PyLibs/blenderCon.py
-start conBlen.bat
 exit

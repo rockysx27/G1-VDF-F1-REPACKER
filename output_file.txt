@@ -1,0 +1,711 @@
+const string mobname_chest="kufer";
+const string mobname_campfire="";
+const string mobname_barbq_sheep="";
+const string mobname_forge="ogieñ w kuŸni";
+const string mobname_grindstone="ose³ka";
+const string mobname_lab="stó³ alchemiczny";
+const string mobname_bookstand="rega³ na ksi¹¿ki";
+const string mobname_booksboard="rega³ na ksi¹¿ki";
+const string mobname_seat="";
+const string mobname_waterpipe="rura";
+const string mobname_winemaker="";
+const string mobname_stove="kuchnia";
+const string mobname_innos="pos¹g innosa";
+const string mobname_runemaker="stó³ runiczny";
+const string mobname_saw="pi³a do drewna";
+const string mobname_armchair="fotel";
+const string mobname_librarylever="lampa";
+const string mobname_secretswitch="";
+const string mobname_bibliothek="biblioteka";
+const string mobname_vorratskammer="spi¿arnia";
+const string mobname_schatzkammer="skarbiec";
+const string mobname_igaraz="kufer igaraza";
+const string mobname_almanach="almanach";
+const string mobname_city="do khorinis";
+const string mobname_tavern="do gospody";
+const string mobname_gr_peasant="do maj¹tku ziemskiego";
+const string mobname_monastery="do klasztoru";
+const string mobname_passow="do prze³êczy";
+const string mobname_city2="do gospody";
+const string mobname_lighthouse="do latarni morskiej";
+const string mobname_monastery2="do gospody";
+const string mobname_prison="do kolonii wiêziennej";
+const string mobname_gr_peasant2="do tawerny";
+const string mobname_incity01="do portu";
+const string mobname_incity02="do targowiska";
+const string mobname_incity03="do górnego miasta";
+const string mobname_incity04="do ulicy kupców";
+const string mobname_incity05="do placu œwi¹tynnego";
+const string mobname_bow_01="³uczarz 'pod zabójcz¹ strza³¹'";
+const string mobname_mix_01="sklep mattea";
+const string mobname_mix_02="sklep rybny halvora 'pod oœlizg³¹ meduz¹'";
+const string mobname_smith_01="œwietliste kowad³o";
+const string mobname_bar_01="gospoda 'pod kuternog¹'";
+const string mobname_bar_02="gospoda 'pod t³ustym cielaczkiem'";
+const string mobname_hotel_01="gospoda 'pod senn¹ sakiewk¹'";
+const string mobname_hotel_02="czerwona latarnia";
+const string mobname_tavern_01="martwa harpia";
+const string mobname_salandril="mikstury salandrila";
+const string mobname_graveteam_01="snoelk - 'patrzcie - prze³¹cznik'";
+const string mobname_graveteam_02="oelk - 'niiiiiiieeeeeeeeee'";
+const string mobname_graveteam_03="hodges - 'wszystko bêdzie w porzo'";
+const string mobname_graveteam_04="hosh - 'ale gó...o'";
+const string mobname_graveteam_05="chase - 'i co wy na to, ziomki?'";
+const string mobname_graveteam_06="björn - 'no to jazda!'";
+const string mobname_graveteam_07="michael - 'ja wcale nie œpiê!'";
+const string mobname_graveteam_08="kairo - 'chwilunia...'";
+const string mobname_graveteam_09="wujo dobra rada - 'nareszcie z³apa³ tego skorpiona'";
+const string mobname_graveteam_10="nicode - 'witaj, œwiecie!'";
+const string mobname_graveteam_11="sascha - 'postaci brak psychologicznej motywacji...'";
+const string mobname_graveteam_12="andre - 'jak szybko opada przeciêtny ¿agiel?'";
+const string mobname_graveteam_13="mihai - 'chodŸ dziecinko, coœ ci poka¿ê...'";
+const string mobname_graveteam_14="uwe - 'na którym poziomie masz tego paladyna?'";
+const string mobname_grave_01="baron heinrich von stahl 551 - 589 'przyby³em i wypi³em'";
+const string mobname_grave_02="bertran 465 - 480 'bycie ¿abojadem wcale nie jest fajne'";
+const string mobname_grave_03="izolda 525 - 550";
+const string mobname_grave_04="nieznany";
+const string mobname_grave_05="dex cantionis 325 - 431 'mam problemy z ¿o³¹dkiem'";
+const string mobname_grave_06="uthar lichtbringer 205 - 532";
+const string mobname_grave_07="yasmin 510 - 546";
+const string mobname_grave_08="onurb 634 - 579 - 'dózrp an ³yt'";
+const string mobname_grave_09="nieznany ¿o³nierz";
+const string mobname_grave_10="potê¿ny krasnolud z kosmosu 2894-3787 - 'to k³amstwo!'";
+const string mobname_grave_11="teodor 220 - 310 - 'oby jego dusza zazna³a spokoju'";
+const string mobname_grave_12="veranim sadea 390 - 'król miejscowego pó³œwiatka'";
+const string mobname_grave_13="serano ukara 234 - 298 'stra¿nik wie¿y'";
+const string mobname_grave_14="victimo sorn 456 - 512 'tylko feniks móg³ go powstrzymaæ'";
+const string mobname_grave_15=" +432 'heristunem go zwano, który z morza wyszed³'";
+const string mobname_grave_16="ernesto ortoj 350 - 410 'na zawsze z tob¹'";
+const string mobname_grave_17="arthag amashrog 730 - 756";
+const string mobname_grave_18="iotar 721 - 762";
+const string mobname_grave_19="midos 757 - 759";
+const string mobname_grave_20="oskar sorn 703 - 736";
+const string mobname_grave_21="marta ukara 732 - 771";
+const string mobname_grave_22="wilfied ukara 722 - 764";
+const string mobname_grave_23="viktorus stahl 741 - 755";
+const string mobname_grave_24="seb 725 - 773";
+const string mobname_grave_25="nieznany";
+const string mobname_grave_26="mart mulgo 721 - 779";
+const string mobname_grave_27="zahra 713 - 752";
+const string mobname_grave_28="baron simbus z kahr 120 - 212";
+const string mobname_grave_29="hrabia anieb z waldfried 117 - 212";
+const string mobname_grave_30="hrabia lazar z siegburg 156 - 212";
+const string mobname_grave_31="mistrz miecza asub ukara 145 - 212";
+const string mobname_grave_32="mistrz miecza dietmar ukara 112 - 212";
+const string mobname_grave_33="stra¿nik honorowy uthar seranis 178 - 212";
+const string mobname_addon_sockel="piedesta³";
+const string mobname_addon_fortuno="skrzynia fortuna";
+const string mobname_addon_idol="pos¹g beliara";
+const string mobname_addon_gold="samorodek z³ota";
+const string mobname_addon_stonebook="pulpit";
+const string mobname_addon_ornament="okr¹g³y mechanizm";
+const string mobname_addon_ornamentswitch="przycisk";
+const string mobname_addon_wackelbaum="kamienne drzewo";
+const string name_addon_tengronsring="pierœcieñ tengrona";
+const string name_addon_cassiasbelohnungsring="pierœcieñ ¿ywotnoœci";
+const string mobname_addon_teleport_01="do portalu w œwi¹tyni";
+const string mobname_addon_teleport_02="do obozu bandytów";
+const string mobname_addon_teleport_03="do bagna";
+const string mobname_addon_teleport_04="do doliny";
+const string mobname_addon_teleport_05="do kanionu";
+const string txt_guilds[66]=
+"brak przyn.",
+"paladyn",
+"obywatel",
+"mag",
+"³owca smoków",
+"farmer",
+"bandyta",
+"skazaniec",
+"poszukiwacz",
+"mieszkaniec",
+"pirat",
+"d",
+"owca",
+"szkielet-goblin",
+"prz. szkielet-goblin",
+"olbrzymi szczur",
+"polna bestia",
+"prz. wilk",
+"prz. szkielet",
+"szkielet-mag",
+"zombie",
+"szkielet-potwór",
+"harpia",
+"kamienny golem",
+"ognisty golem",
+"lodowy golem",
+"prz. golem",
+"prz. demon",
+"smok",
+"aligator",
+"b³otny golem",
+"kamienna puma",
+"a",
+"zombie",
+"ork",
+"ork",
+"ork-o¿ywieniec",
+"smokowiec",
+"x",
+"y",
+"z"
+const string txt_spells[100]=
+"œwiêty p³omieñ",
+"ma³e uleczenie",
+"œwiêta strza³a",
+"œrednie uleczenie",
+"wypêdzenie z³a",
+"du¿e uleczenie",
+"zniszczenie z³a",
+"teleportacja",
+"do miasta portowego",
+"do klasztoru",
+"do maj¹tku ziemskiego",
+"do xardasa",
+"do prze³êczy khorinis",
+"do prze³êczy górniczej doliny",
+"do zamku",
+"do starej wie¿y demonów",
+"do gospody",
+"txt_spl_teleport_3",
+"ognista strza³a",
+"lodowa strza³a",
+"leczenie lekkich ran",
+"szkielet-goblin",
+"ma³a b³yskawica",
+"przyzwanie wilka",
+"piêœæ wichru",
+"leczenie œrednich ran",
+"b³yskawica",
+"du¿a kula ognia",
+"tworzenie golema",
+"zniszczenie o¿ywieñca",
+"du¿a burza ognista",
+"ma³a burza ognista",
+"uleczenie ca³kowite",
+"ognisty deszcz",
+"masowe zniszczenie",
+"zmniejszenie",
+"owca",
+"olbrzymi szczur",
+"polna bestia",
+"warg",
+"ognisty jaszczur",
+"smoczy zêbacz",
+"niepamiêæ",
+"œwiêty pocisk",
+"txt_spl_deathbolt",
+"txt_spl_deathball",
+"txt_spl_concussionbolt",
+"txt_spl_reserved_64",
+"txt_spl_reserved_65",
+"txt_spl_reserved_66",
+"txt_spl_reserved_67",
+"txt_spl_reserved_68",
+"txt_spl_reserved_69",
+"wir",
+"wodna piêœæ ",
+"lodowa lanca ",
+"spuchniêcie",
+"gejzer",
+"wodna ró¿d¿ka ",
+"txt_spl_reserved_77",
+"txt_spl_reserved_78",
+"txt_spl_reserved_79",
+"plaga owadów ",
+"rój owadów ",
+"korzeñ",
+"trzêsienie ziemi ",
+"stworzenie stra¿nika",
+"sza³ beliara",
+"kradzie¿ energii ",
+"krzyk umar³ych",
+"stworzenie zombie ",
+"przyzwanie b³otniaka",
+"txt_spl_reserved_90",
+"txt_spl_reserved_91",
+"txt_spl_reserved_92",
+"txt_spl_reserved_93",
+"txt_spl_reserved_94",
+"txt_spl_reserved_95",
+"txt_spl_reserved_96",
+"txt_spl_reserved_97",
+"txt_spl_reserved_98",
+"txt_spl_reserved_99"
+const string name_spl_pallight="œwiêty p³omieñ";
+const string name_spl_pallightheal="pomniejsze uleczenie";
+const string name_spl_palholybolt="œwiêta strza³a";
+const string name_spl_palmediumheal="œrednie uleczenie";
+const string name_spl_palrepelevil="szkodzenie z³u";
+const string name_spl_palfullheal="wiêksze uleczenie";
+const string name_spl_paldestroyevil="zniszczenie z³a";
+const string name_spl_palteleportsecret="teleportacja";
+const string name_spl_teleportseaport="teleportacja do miasta portowego";
+const string name_spl_teleportmonastery="teleportacja do klasztoru";
+const string name_spl_teleportfarm="teleportacja do maj¹tku ziemskiego";
+const string name_spl_teleportxardas="teleportacja do xardasa";
+const string name_spl_teleportpassnw="teleportacja do prze³êczy khorinis";
+const string name_spl_teleportpassow="teleportacja do prze³êczy górniczej doliny";
+const string name_spl_teleportoc="teleportacja do zamku";
+const string name_spl_teleportowdemontower="teleportacja do starej wie¿y demonów";
+const string name_spl_teleporttaverne="teleportacja do tawerny";
+const string name_spl_teleport_3="name_spl_teleport_3";
+const string name_spl_light="œwiat³o";
+const string name_spl_firebolt="ognista strza³a";
+const string name_spl_icebolt="lodowa strza³a";
+const string name_spl_lightheal="leczenie lekkich ran";
+const string name_spl_summongoblinskeleton="tworzenie szkieletu-goblina";
+const string name_spl_instantfireball="kula ognia";
+const string name_spl_zap="b³yskawica";
+const string name_spl_summonwolf="przyzwanie wilka";
+const string name_spl_windfist="piêœæ wichru";
+const string name_spl_sleep="sen";
+const string name_spl_mediumheal="leczenie œrednich ran";
+const string name_spl_firestorm="ma³a burza ognista";
+const string name_spl_summonskeleton="tworzenie szkieletu";
+const string name_spl_fear="strach";
+const string name_spl_icecube="bry³a lodu";
+const string name_spl_chargezap="piorun kulisty";
+const string name_spl_lightningflash="b³yskawica";
+const string name_spl_summongolem="obudzenie golema";
+const string name_spl_destroyundead="zniszczenie o¿ywieñca";
+const string name_spl_chargefireball="du¿a kula ognia";
+const string name_spl_pyrokinesis="du¿a burza ognista";
+const string name_spl_icewave="lodowa fala";
+const string name_spl_summondemon="przyzwanie demona";
+const string name_spl_fullheal="leczenie ciê¿kich ran";
+const string name_spl_firerain="deszcz ognia";
+const string name_spl_breathofdeath="tchnienie œmierci";
+const string name_spl_massdeath="œmiertelna fala";
+const string name_spl_armyofdarkness="armia ciemnoœci";
+const string name_spl_shrink="zmniejszenie potwora";
+const string name_spl_trfsheep="przemiana w owcê";
+const string name_spl_trfscavenger="przemiana w œcierwojada";
+const string name_spl_trfgiantrat="przemiana w olbrzymiego szczura";
+const string name_spl_trfgiantbug="przemiana w poln¹ bestiê";
+const string name_spl_trfwolf="przemiana w wilka";
+const string name_spl_trfwaran="przemiana w jaszczura";
+const string name_spl_trfsnapper="przemiana w zêbacza";
+const string name_spl_trfwarg="przemiana w warga";
+const string name_spl_trffirewaran="przemiana w ognistego jaszczura";
+const string name_spl_trflurker="przemiana w topielca";
+const string name_spl_trfshadowbeast="przemiana w cieniostwora";
+const string name_spl_trfdragonsnapper="przemiana w smoczego zêbacza";
+const string name_spl_charm="niepamiêæ";
+const string name_spl_masterofdisaster="œwiêty pocisk";
+const string name_spl_deathbolt="name_spl_deathbolt";
+const string name_spl_deathball="name_spl_deathball";
+const string name_spl_concussionbolt="name_spl_concussionbolt";
+const string name_spl_reserved_64="name_spl_reserved_64";
+const string name_spl_reserved_65="name_spl_reserved_65";
+const string name_spl_reserved_66="name_spl_reserved_66";
+const string name_spl_reserved_67="name_spl_reserved_67";
+const string name_spl_reserved_68="name_spl_reserved_68";
+const string name_spl_reserved_69="name_spl_reserved_69";
+const string name_spl_thunderstorm="grom";
+const string name_spl_whirlwind="wir";
+const string name_spl_waterfist="wodna piêœæ ";
+const string name_spl_icelance="lodowa lanca ";
+const string name_spl_inflate="spuchniêcie";
+const string name_spl_geyser="gejzer";
+const string name_spl_waterwall="wodna ró¿d¿ka ";
+const string name_spl_reserved_77="name_spl_reserved_77";
+const string name_spl_reserved_78="name_spl_reserved_78";
+const string name_spl_reserved_79="name_spl_reserved_79";
+const string name_spl_plague="plaga owadów ";
+const string name_spl_swarm="rój owadów ";
+const string name_spl_greententacle="korzeñ";
+const string name_spl_earthquake="trzêsienie ziemi ";
+const string name_spl_summonguardian="stworzenie stra¿nika";
+const string name_spl_beliarsrage="sza³ beliara";
+const string name_spl_suckenergy="kradzie¿ energii ";
+const string name_spl_skull="krzyk umar³ych";
+const string name_spl_summonzombie="stworzenie zombie ";
+const string name_spl_summonmud="przyzwanie b³otniaka";
+const string name_spl_reserved_90="name_spl_reserved_90";
+const string name_spl_reserved_91="name_spl_reserved_91";
+const string name_spl_reserved_92="name_spl_reserved_92";
+const string name_spl_reserved_93="name_spl_reserved_93";
+const string name_spl_reserved_94="name_spl_reserved_94";
+const string name_spl_reserved_95="name_spl_reserved_95";
+const string name_spl_reserved_96="name_spl_reserved_96";
+const string name_spl_reserved_97="name_spl_reserved_97";
+const string name_spl_reserved_98="name_spl_reserved_98";
+const string name_spl_reserved_99="name_spl_reserved_99";
+const string txt_talents[22]=
+"br. jednorêczna",
+"br. dwurêczna",
+"³uki",
+"kusze",
+"w³amywanie siê",
+"akrobatyka",
+"kradzie¿ kiesz.",
+"kowalstwo",
+"tworzenie run",
+"alchemia",
+"zbieranie trofeów",
+"czytanie w obcym jêzyku",
+"zdolnoœæ ognika",
+const string txt_talents_skills[22]=
+"zielony|wojownik|mistrz",
+"zielony|wojownik|mistrz",
+"zielony|strzelec|mistrz",
+"zielony|strzelec|mistrz",
+"-|uczony|-",
+"0|1|2",
+"0|1|2|3|4|5|6",
+"-|uczony",
+"-|-",
+"-|-",
+"-|uczony",
+"-|uczony",
+"-|uczony",
+"-|uczony",
+"-|uczony",
+"-|uczony",
+"-|uczony",
+"-|uczony",
+"-|uczony",
+"-|uczony",
+"-|uczony"
+const string txt_inv_cat[9]=
+const string name_paladin="paladyn";
+const string name_miliz="stra¿nik miejski";
+const string name_tuerwache="stra¿nik wrót";
+const string name_stadtwache="stra¿nik miejski";
+const string name_arbeiter="robotnik";
+const string name_ritter="rycerz";
+const string name_wache="stra¿nik";
+const string name_buerger="obywatel";
+const string name_buergerin="obywatelka";
+const string name_magd="s³u¿ka";
+const string name_magier="mag";
+const string name_drachenjaeger="³owca smoków";
+const string name_toterdrachenjaeger="martwy ³owca smoków";
+const string name_bauer="farmer";
+const string name_baeuerin="farmerka";
+const string name_bandit="bandyta";
+const string name_halsabschneider="no¿ownik";
+const string name_straefling="skazaniec";
+const string name_waffenknecht="knecht";
+const string name_dementor="poszukiwacz";
+const string name_toternovize="martwy nowicjusz";
+const string name_antipaldin="herszt orków";
+const string name_schiffswache="stra¿nik okrêtu";
+const string name_fluechtling="uciekinier";
+const string name_addon_pirat="pirat";
+const string name_addon_guard="stra¿nik";
+const string name_addon_esteban_guard="ochroniarz";
+const string name_addon_sklave="niewolnik";
+const string name_addon_buddler="kopacz";
+const string name_addon_scavengergl="preriowy œcierwojad";
+const string name_addon_summoned_guardian="przywo³any kamienny stra¿nik";
+const string name_addon_summoned_zombie="przywo³any zombie";
+const string name_addon_beliarsweapon="szpon beliara";
+const string name_addon_undead_mud="b³otniak-o¿ywieniec";
+const string name_addon_summoned_mud="przywo³any b³otniak";
+const string dialog_ende="koniec";
+const string dialog_back="wróæ";
+const string dialog_trade="(handel)";
+const string dialog_pickpocket="(kradzie¿ kiesz.)";
+const string name_trank="mikstura";
+const string name_key="klucz";
+const string name_addon_belt="pas";
+const string name_addon_beltmage="szarfa";
+const string name_addon_bearsld="ze zbroj¹ najemnika +";
+const string name_addon_bearmil="ze zbroj¹ stra¿nika +";
+const string name_addon_bearkdf="ze zbroj¹ maga +";
+const string name_addon_bearnov="ze zbroj¹ nowicjusza +";
+const string name_addon_bearmc="ze zbroj¹ pe³zacza +";
+const string name_addon_bearleather="ze skórzan¹ zbroj¹ +";
+const string print_addon_bdtarmor="kto nosi tê zbrojê, nale¿y do bandytów.";
+const string print_addon_kumu_01="jesteœmy trzema braæmi z kasty.";
+const string print_addon_kumu_02="razem jesteœmy silniejsi.";
+const string print_addon_nadjawait="czekaj. z powodu ziela...";
+const string name_currency="z³oto: ";
+const string print_trade_not_enough_gold="brakuje ci z³ota na zakup tego przedmiotu.";
+const string name_manakosten="wydatek many:";
+const string name_minmanakosten="min. wydatek many:";
+const string name_manakostenmax="maks. wydatek many:";
+const string name_duration="czas trwania (min.)";
+const string name_sec_duration="czas trwania (sek.)";
+const string name_spell_invest="zaklêcie sta³e";
+const string name_dam_fly="obr. wiatr";
+const string name_damage="obra¿enia";
+const string name_damage_max="obra¿enia maks.";
+const string name_permana=" (na punkt many)";
+const string name_damagepersec="obra¿enia/sek.";
+const string name_prot_edge="obrona przed broni¹:";
+const string name_prot_point="obrona przed strza³ami:";
+const string name_prot_fire="obrona przed ogniem:";
+const string name_prot_magic="obrona przed magi¹:";
+const string name_bonus_hp="premia punktów trafieñ:";
+const string name_bonus_mana="premia many:";
+const string name_bonus_hpmax="premia do maks. punktów trafieñ:";
+const string name_bonus_manamax="premia do maks. many:";
+const string name_bonus_dex="premia do zrêcznoœci:";
+const string name_bonus_str="premia do si³y:";
+const string name_healingpermana="uleczenie/mana";
+const string name_healingpercast="uleczenie:";
+const string name_addon_nostalgiebonus="premia za nostalgiê:";
+const string name_addon_needsallmana="potrzebuje ca³ej many.";
+const string name_addon_spelldontkill="s³owa nie zabijaj¹";
+const string name_addon_damage_min="minimalne obra¿enia:";
+const string name_addon_wispskill_ff="broñ dystansowa i amunicja";
+const string name_addon_wispskill_none="z³oto, klucze i narzêdzia";
+const string name_addon_wispskill_rune="runy i zwoje";
+const string name_addon_wispskill_magic="pierœcienie i amulety";
+const string name_addon_wispskill_food="¿ywnoœæ i roœliny";
+const string name_addon_wispskill_potions="magia i mikstury";
+const string name_addon_learnlanguage_1="naucz siê jêzyka wieœniaków";
+const string name_addon_learnlanguage_2="naucz siê jêzyka wojowników";
+const string name_addon_learnlanguage_3="naucz siê jêzyka kap³anów";
+const string name_addon_malus_2h="kara do walki broni¹ dwurêczn¹";
+const string name_addon_malus_1h="kara do walki broni¹ jednorêczn¹";
+const string name_addon_bonus_1h="premia do walki broni¹ jednorêczn¹";
+const string name_addon_bonus_2h="premia do walki broni¹ dwurêczn¹";
+const string name_addon_onehanded_beliar="szansa na dodatkowe obra¿enia";
+const string name_addon_twohanded_beliar="szansa na dodatkowe obra¿enia";
+const string name_addon_upgratebeliarsweapon="ulepszenie szponu beliara";
+const string name_addon_beten="modlitwa";
+const string name_addon_prayidol_givenothing="chcê siê pomodliæ, ale nie z³o¿ê niczego w ofierze.";
+const string name_addon_prayidol_givehitpoint1="chcê siê pomodliæ i z³o¿yæ w ofierze 1 punkt trafieñ.";
+const string name_addon_prayidol_givehitpoint2="chcê siê pomodliæ i z³o¿yæ w ofierze 2 punkty trafieñ.";
+const string name_addon_prayidol_givehitpoint3="chcê siê pomodliæ i z³o¿yæ w ofierze 3 punkty trafieñ.";
+const string name_addon_prayidol_givemana="chcê siê pomodliæ i z³o¿yæ w ofierze 1 punkt many.";
+const string name_itmw_1h_common_01="miecz";
+const string name_itmw_1h_special_01="d³ugi miecz magiczny";
+const string name_itmw_2h_special_01="magiczny miecz dwurêczny";
+const string name_itmw_1h_special_02="magiczny miecz pó³torarêczny";
+const string name_itmw_2h_special_02="ciê¿ki magiczny miecz dwurêczny";
+const string name_itmw_1h_special_03="magiczne ostrze bojowe";
+const string name_itmw_2h_special_03="ciê¿kie magiczne ostrze bojowe";
+const string name_itmw_1h_special_04="magiczne ostrze na smoki";
+const string name_itmw_2h_special_04="du¿e magiczne ostrze na smoki";
+const string name_addon_harad_01="dobry miecz";
+const string name_addon_harad_02="dobry d³ugi miecz";
+const string name_addon_harad_03="rubinowe ostrze";
+const string name_addon_harad_04="el bastardo";
+const string print_addon_gegeben=" - odda³eœ";
+const string print_goldgegeben=" szt. z³ota - odda³eœ";
+const string print_itemgegeben=" przedmiot - odda³eœ";
+const string print_itemsgegeben=" przedm. - odda³eœ";
+const string print_addon_erhalten=" - otrzyma³eœ";
+const string print_golderhalten=" szt. z³ota - otrzyma³eœ";
+const string print_itemerhalten=" przedmiot - otrzyma³eœ";
+const string print_itemserhalten=" przedm. - otrzyma³eœ";
+const string print_addon_runegiven=" beliar daje ci kolejne zaklêcie";
+const string print_kosten=". koszt:";
+const string print_lp=" pn";
+const string print_notenoughlp="za ma³o punktów nauki!";
+const string print_nolearnoverpersonalmax="maksimum dla tego nauczyciela wynosi ";
+const string print_learnstr="si³a + ";
+const string print_learndex="zrêcznoœæ + ";
+const string print_learnmana_max="mana + ";
+const string print_learnhitpoints_max="punkty trafieñ + ";
+const string print_learnlp="punkty nauki + ";
+const string print_learncircle_1="nauka: pierwszy kr¹g magii";
+const string print_learncircle_2="nauka: drugi kr¹g magii";
+const string print_learncircle_3="nauka: trzeci kr¹g magii";
+const string print_learncircle_4="nauka: czwarty kr¹g magii";
+const string print_learncircle_5="nauka: pi¹ty kr¹g magii";
+const string print_learncircle_6="nauka: szósty kr¹g magii";
+const string print_learn1h="trening: pos³ugiwanie siê broni¹ jednorêczn¹";
+const string print_learn1h_and_2h="trening: pos³ugiwanie siê broni¹ jedno- i dwurêczn¹";
+const string print_learn2h="trening: pos³ugiwanie siê broni¹ dwurêczn¹";
+const string print_learn2h_and_1h="trening: pos³ugiwanie siê broni¹ dwu- i jednorêczn¹";
+const string print_learnbow="trening: pos³ugiwanie siê ³ukiem";
+const string print_learnbow_and_crossbow="trening: pos³ugiwanie siê ³ukiem i kusz¹";
+const string print_learncrossbow="trening: pos³ugiwanie siê kusz¹";
+const string print_learncrossbow_and_bow="trening: pos³ugiwanie siê kusz¹ i ³ukiem";
+const string print_learnpicklock="nauka: w³amywanie siê";
+const string print_learnsneak="nauka: skradanie siê";
+const string print_learnacrobat="nauka: akrobatyka";
+const string print_addon_acrobatbonus="premia do akrobatyki!";
+const string print_learnpickpocket="nauka: kradzie¿ kieszonkowa";
+const string print_beliarshitpoints_max="zdrowie - ";
+const string print_learnsmith="nauka: kowalstwo";
+const string print_learnrunes="nauka: tworzenie run";
+const string print_learnalchemy="nauka: warzenie mikstur";
+const string print_learnalchemyinnoseye="nauka: na³adowanie oka innosa";
+const string print_learntakeanimaltrophy="nauka: zbieranie trofeów zwierzêcych";
+const string print_learnforeignlanguage="nauka: jêzyk budowniczych";
+const string print_learnwispdetector="zwiêkszy³y siê umiejêtnoœci ognika";
+const string print_learnpalteleportsecret="nauka: tworzenie tajnej runy teleportu";
+const string print_notenoughlearnpoints="za ma³o punktów nauki!";
+const string print_learnstr1="si³a + 1";
+const string print_learnstr5="si³a + 5";
+const string print_learndex1="zrêcznoœæ +1";
+const string print_learndex5="zrêcznoœæ +5";
+const string print_learnmana1="mana + 1";
+const string print_learnmana5="mana + 5";
+const string print_learn1h1="broñ jednorêczna +1";
+const string print_learn1h5="broñ jednorêczna +5";
+const string print_learn2h1="broñ dwurêczna +1";
+const string print_learn2h5="broñ dwurêczna +5";
+const string print_learnbow1="³uki +1";
+const string print_learnbow5="³uki +5";
+const string print_learncrossbow1="kusze +1";
+const string print_learncrossbow5="kusze +5";
+const string print_sleepover="po porz¹dnym œnie czujesz siê wypoczêty.";
+const string print_sleepoverobsessed="koszmary senne nie pozwalaj¹ ci nale¿ycie wypocz¹æ.";
+const string print_smithsuccess="stworzy³eœ broñ!";
+const string print_runesuccess="stworzy³eœ runê!";
+const string print_alchemysuccess="uwarzy³eœ miksturê!";
+const string print_alchemysuccessinnoseye="oko innosa pulsuje energi¹!";
+const string print_proditemsmissing="za ma³o sk³adników!";
+const string print_tabaksuccess="uda³o ci siê stworzyæ trochê tytoniu!";
+const string print_jointsuccess="zwin¹³eœ skrêta z bagiennego ziela!";
+const string print_addon_joint_01_success="zielony nowicjusz gotowy!";
+const string print_noinnostears="brakuje ci '³ez innosa'.";
+const string print_addon_guildneeded="nie nale¿ysz do ¿adnej gildii.";
+const string print_addon_guildneeded_nov="nie jesteœ jeszcze magiem.";
+const string print_keymissing="potrzebujê w³aœciwego klucza.";
+const string print_picklockmissing="potrzebujê wytrycha.";
+const string print_picklock_or_keymissing="potrzebujê klucza lub wytrycha.";
+const string print_neveropen="tego nie da siê otworzyæ.";
+const string print_toofar_away="to za daleko.";
+const string print_wrongside="nie ta strona.";
+const string print_missingitem="brak mi odpowiedniego przedmiotu.";
+const string print_anotheruser="w u¿yciu.";
+const string print_nopicklocktalent="brak mi odpowiedniej umiejêtnoœci.";
+const string print_nothingtoget="st¹d nie ma co zabraæ...";
+const string print_nothingtoget02="nic tu nie ma...";
+const string print_nothingtoget03="nie ma czego rabowaæ...";
+const string print_blessstr="innos zwiêkszy³ twoj¹ si³ê o + ";
+const string print_blessdex="innos zwiêkszy³ twoj¹ zrêcznoœæ o + ";
+const string print_blessmana_max="innos zwiêkszy³ twoj¹ manê o + ";
+const string print_blesshitpoints_max="innos zwiêkszy³ twoje punkty trafieñ o + ";
+const string print_blessmana="innos oczyœci³ twego ducha.";
+const string print_blesshitpoints="innos wys³ucha³ twe proœby i uleczy³ ciê.";
+const string print_blessmana_hit="czujesz siê niczym nowonarodzony.";
+const string print_blessnone="innos dziêkuje ci za modlitwê.";
+const string print_notenoughgold="za ma³o z³ota.";
+const string bless_sword="konsekracja miecza (5000 szt. z³ota)";
+const string bless_sword2="konsekracja miecza (³zy innosa)";
+const string pray_paladin1="...innosie, przyjmij do siebie swoje s³ugi...";
+const string pray_paladin2="...b³ogos³aw je swym ogniem i zeœlij na nie si³ê...";
+const string pray_paladin3="...by w imiê twe dzielne walczyæ mog³y...";
+const string pray_paladin4="...a¿ po zwyciêstwo lub œmieræ, którekolwiek ci milsze bêdzie.";
+const string dialog_addon_attentat_description="co wiesz o próbie zabójstwa estebana?";
+const string dialog_addon_attentat_pro="zabijê tych zdrajców.";
+const string dialog_addon_attentat_contra="chcê znaleŸæ tych ludzi, by wyst¹piæ przeciwko estebanowi.";
+const string dialog_addon_mine_description="potrzebuj¹ ciê w kopalni. (daj czerwony kamieñ)";
+const string dialog_addon_gold_description="co muszê wiedzieæ o wydobyciu z³ota?";
+const string print_addon_knowsbf="zdobyto wiedzê na temat ¿¹d³owej wydzieliny";
+const string print_addon_hackchance="zwiêkszy³a siê umiejêtnoœæ wydobywania z³ota! (+";
+const string print_addon_stuntbonus="premia za wyczyn";
+const string print_addon_exploitbonus="kara za oszustwa";
+const string print_addon_enoughtalk="dosyæ gadania. walczmy!";
+const string print_fullyhealed="ca³kowicie wyleczony.";
+const string print_eat1="czujesz siê znacznie bardziej œwie¿o.";
+const string print_eat2="smakuje œwie¿o i soczyœcie.";
+const string print_eat3="czujesz si³ê, czujesz moc!";
+const string print_readastronomy="przepe³nia ciê wra¿enie obcowania z istot¹ bosk¹.";
+const string print_gornstreasure="otrzyma³eœ 100 szt. z³ota.";
+const string print_kerolothsgeldbeutel="otrzyma³eœ 300 szt. z³ota.";
+const string print_malethbanditsgold="otrzyma³eœ 300 szt. z³ota.";
+const string print_diegostreasure="otrzyma³eœ 2000 szt. z³ota.";
+const string print_irdorathbookdoesntopen="nie mo¿na otworzyæ ok³adki tej ksiêgi.";
+const string print_irdorathbookhiddenkey="w ok³adce tej ksiêgi schowano klucz!";
+const string print_fishletter="w tej rybie schowano jak¹œ notatkê.";
+const string print_innoseyegiven="odda³eœ oko innosa";
+const string print_innoseyeget="otrzyma³eœ oko innosa";
+const string print_gotfouritems="otrzyma³eœ 4 przedmioty";
+const string print_orceliteringequip="czujesz siê os³abiony.";
+const string print_scisobsessed="czujesz, ¿e coœ ciê ciœnie i dusi!";
+const string print_clearscobsession="czujesz ulgê.";
+const string print_numberleft=" pozosta³o";
+const string print_novizenleft=" nowicjuszy pozosta³o";
+const string print_addon_canyonrazorsleft=" - pozosta³e brzytwiaki";
+const string print_dragkillcount="wróg pokonany. tym razem nie bêdê gniæ pod ska³ami, wracam na okrêt.";
+const string print_smith_1h_special_01=" (1 bry³ka rudy)";
+const string print_smith_2h_special_01=" (2 bry³ki rudy)";
+const string print_smith_1h_special_02=" (2 bry³ki rudy)";
+const string print_smith_2h_special_02=" (3 bry³ki rudy)";
+const string print_smith_1h_special_03=" (3 bry³ki rudy)";
+const string print_smith_2h_special_03=" (4 bry³ki rudy)";
+const string print_smith_1h_special_04=" (4 bry³ki rudy, 5 porcji smoczej krwi)";
+const string print_smith_2h_special_04=" (5 bry³ek rudy, 5 porcji smoczej krwi)";
+const string name_magescroll="zwój";
+const string print_foundring="znaleziono pierœcieñ";
+const string print_foundamulett="znaleziono amulet";
+const string print_foundscroll="znaleziono magiczny zwój";
+const string print_foundpotion="znaleziono miksturê";
+const string print_foundmap="znaleziono mapê";
+const string print_foundgold10="znaleziono 10 szt. z³ota";
+const string print_foundgold25="znaleziono 25 szt. z³ota";
+const string print_foundgold50="znaleziono 50 szt. z³ota";
+const string print_foundgold100="znaleziono 100 szt. z³ota";
+const string print_foundruneblank="znaleziono runê";
+const string print_foundorenugget="znaleziono bry³kê rudy";
+const string print_foundlockpick="znaleziono wytrych";
+const string print_hannasbeutel="ma³y klucz i kilka wytrychów...";
+const string print_gotplants="znaleziono trochê zió³";
+const string print_nosweeping="posprz¹tanie wszystkich komnat zajmie ca³e wieki!";
+const string print_mandibles="wydzielina zdaje siê nie dzia³aæ.";
+const string print_bloodfly="gorzki smak - smak trucizny.";
+const string print_pilz="grzybowy tytoñ";
+const string print_doppel="podwójne jab³ko";
+const string print_honig="miodowy tytoñ";
+const string print_kraut="tytoñ zio³owy";
+const string print_xpgained="doœwiadczenie + ";
+const string print_levelup="kolejny poziom!";
+const string print_newlogentry="nowy wpis w dzienniku";
+const string print_teleporttoofaraway="za daleko";
+const string print_biffsanteil="dzia³ka biffa: ";
+const string print_biffgold=" szt. z³ota";
+const string print_addon_sciswearingrangerring="nosisz teraz charakterystyczny znak wodnego krêgu.";
+var string text_innoseye_setting;
+const string text_innoseye_setting_broken="oprawa amuletu jest pêkniêta.";
+const string text_innoseye_setting_repaired="oprawa amuletu jest ca³a.";
+const string text_innoseye_gem="klejnot jest martwy i pozbawiony mocy.";
+const string pickpocket_20="(kradzie¿ tego mieszka bêdzie dziecinnie ³atwa.)";
+const string pickpocket_40="(kradzie¿ tego mieszka bêdzie doœæ prosta.)";
+const string pickpocket_60="(kradzie¿ tego mieszka bêdzie doœæ ryzykowna.)";
+const string pickpocket_80="(kradzie¿ tego mieszka bêdzie trudna.)";
+const string pickpocket_100="(kradzie¿ tego mieszka bêdzie diabelsko trudna.)";
+const string pickpocket_120="(kradzie¿ tego mieszka bêdzie graniczy³a z cudem.)";
+const string pickpocket_20_female="(kradzie¿ tego mieszka bêdzie dziecinnie ³atwa.)";
+const string pickpocket_40_female="(kradzie¿ tego mieszka bêdzie doœæ prosta.)";
+const string pickpocket_60_female="(kradzie¿ tego mieszka bêdzie doœæ ryzykowna.)";
+const string pickpocket_80_female="(kradzie¿ tego mieszka bêdzie trudna.)";
+const string pickpocket_100_female="(kradzie¿ tego mieszka bêdzie diabelsko trudna.)";
+const string pickpocket_120_female="(kradzie¿ tego mieszka bêdzie graniczy³a z cudem.)";
+const int ypos_goldgiven=34;
+const int ypos_goldtaken=34;
+const int ypos_itemgiven=37;
+const int ypos_itemtaken=40;
+const int ypos_logentry=45;
+const int ypos_levelup=50;
+const int ypos_xpgained=55;
+const string print_picklock_success="brzmi nieŸle.";
+const string print_picklock_unlock="zamek otwarty.";
+const string print_picklock_failure="cholera... spróbuj ponownie.";
+const string print_picklock_broken="wytrych siê z³ama³.";
+const string print_hitpoints_missing="pkt. trafieñ za ma³o";
+const string print_hitpoints_max_missing="maks. pkt. trafieñ za ma³o";
+const string print_mana_missing="pkt. many za ma³o";
+const string print_mana_max_missing="maks. pkt. many za ma³o";
+const string print_strength_missing="pkt. si³y za ma³o";
+const string print_dexterity_missing="pkt. zrêcznoœci za ma³o";
+const string print_magcircles_missing="kr. magii za ma³o, by u¿yæ tej runy";
+const string print_addon_beliarscourse_missing="tej broni nie mo¿na za³o¿yæ.";
+const string _str_message_interact_no_key="brak wytrycha b¹dŸ w³aœciwego klucza.";
+const string _str_message_trade_failure="zaproponowane przez ciebie na wymianê towary nie s¹ doœæ cenne.";
+const string str_info_trade_exit="wróæ";
+const string menu_text_needs_apply="wciœnij klawisz [enter], aby w³¹czyæ!";
+const string menu_text_needs_restart="niektóre ustawienia zostan¹ wprowadzone dopiero po ponownym uruchomieniu gry.";
+const string kapwechsel_1="rozdzia³ 1";
+const string kapwechsel_1_text="zagro¿enie";
+const string kapwechsel_2="rozdzia³ 2";
+const string kapwechsel_2_text="powrót do kolonii";
+const string kapwechsel_3="rozdzia³ 3";
+const string kapwechsel_3_text="oko innosa";
+const string kapwechsel_4="rozdzia³ 4";
+const string kapwechsel_4_text="polowanie na smoki";
+const string kapwechsel_5="rozdzia³ 5";
+const string kapwechsel_5_text="rozstanie";
+const string kapwechsel_6="rozdzia³ 6";
+const string kapwechsel_6_text="dwór irdorath";
